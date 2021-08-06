@@ -13,7 +13,7 @@ An implementation of the judicial style of judge Lessner
 ```=> "4 1...in-your-opinion"```
 
 
-```(let [x (+ 2 2)] (hpl/case x 4 1 in-my-opinion 3 2 in-my-opinion))```
+```(let [x (+ 2 2)] (case x 4 1 in-my-opinion 3 2 in-my-opinion))```
 
 ```=> 1```
 
